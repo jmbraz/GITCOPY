@@ -1,0 +1,264 @@
+
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.main{
+    
+    background: #ffffff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.login{
+
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+}
+
+.github {
+    min-width: 50px;
+    margin-left: 1px;
+    padding: 37px 0px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+form{
+    width: 20%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    padding: 16px;
+    font-size: 14px;
+    border-radius: 0 0 6px 6px;
+}
+
+
+.textfield{  
+ 
+    width: 308px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 29px 24px;
+    background: #f6f8fa;
+    border: 1px solid #d8dee4;
+    border-radius: 5px;
+    padding: 16px 16px 16px 16px;
+    line-height: 21px;
+    margin-top: 16px;
+    
+
+
+
+}
+
+.textfield a{  
+
+    color: rgb(9, 105, 218);
+    color-scheme: light;
+    font-size: smaller;
+    justify-content: space-between;
+    padding-left: 86.8px;
+
+ 
+
+
+
+
+}
+
+.textfield a:hover{  
+
+    text-decoration: underline;
+ 
+
+
+
+
+}
+
+.textfield-r{  
+ 
+    width: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 29px 24px;
+    background: #ffffff;
+    border: 1px solid #d8dee4;
+    border-radius: 5px;
+    padding: 16px 16px 16px 16px;
+    line-height: 21px;
+    margin-top: 16px;
+    font-size:  14px;
+
+
+
+}
+
+.textfield-r a{  
+
+    color: rgb(9, 105, 218);
+    color-scheme: light;
+ 
+
+
+
+
+}
+
+.textfield-r a:hover{  
+
+    text-decoration: underline;
+ 
+
+
+
+
+}
+
+
+.textfield > p{
+    padding: 17px;
+    margin-bottom: 8px;
+    text-align: left;
+    height: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    overflow-wrap: break-word;
+    text-align: left;
+    text-size-adjust: 100%;
+    width: 274px;
+
+}
+
+form > h1{
+
+    margin: 0 16% 2% 15%;
+    font-size: 24px;
+    font-weight: 300;
+    overflow-wrap: break-word;
+    display: block;
+    text-size-adjust: 100%;
+
+}
+
+.textfield > input{
+    width: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    padding: 7px;
+    background: #ffffff;
+    color:black;
+    margin-left: 15px;
+    outline: none;
+
+}
+
+.textfield > input::placeholder{
+    color: #808080
+}
+
+
+
+button{
+    width: 91%;
+    padding: 7px;
+    margin: 5% 0% 0% 5%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    outline: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    background: #1f883d;
+    border: 1px solid #1f793a;
+    border-radius: 6px;
+    cursor:pointer;
+}
+
+button:hover{
+    transition: background 1s;
+    background: #1f793a;
+}
+
+footer{
+
+    padding: 80px;
+    font-size: 12px;
+
+
+}
+
+footer ul{
+
+    display: flex;
+    gap: 10px;
+    list-style: none;
+
+
+
+}
+
+footer a{
+
+    color: rgb(9, 105, 218);
+    color-scheme: light;
+
+
+}
+
+
+footer a:hover{
+
+    text-decoration: underline;
+
+
+}
+
+footer ul li:last-child a{
+    color: rgb(101, 109, 118);
+
+}
+
+footer ul li:last-child a:hover{
+    color: rgb(9, 105, 218);
+    color-scheme: light;
+
+}
+
+
+
+
+
+
