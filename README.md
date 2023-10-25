@@ -22,7 +22,7 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 - Replicação da estrutura e estilo da página de login do GitHub sem utilizar uma ferramenta de interface.
 
 ## Preview
-![Captura de Tela do GEO](https://github.com/jmbraz/GEO/raw/main/Captura-GITCOPY.png)
+![Captura de Tela do GITCOPY](https://github.com/jmbraz/GITCOPY/raw/main/Captura-GITCOPY.png)
 
 ## Deploy
 
